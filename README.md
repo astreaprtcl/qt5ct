@@ -37,9 +37,14 @@
 ## Usage
 
 1. Clone this repository locally
-2. Copy your favorite color scheme and accent (For example: `catppuccin-mocha-mauve.conf`) from the `themes` folder in `~/.config/qt5ct/colors/` or `~/.config/qt6ct/colors/` (Create the folder if it doesn't exist)
+2. Copy your favorite color scheme and accent (For example: `catppuccin-mocha-mauve.conf`) from the `themes/qt5ct` or `themes/qt6ct` folder in `~/.config/qt5ct/colors/` or `~/.config/qt6ct/colors/` (Create the folder if it doesn't exist)
 3. Open qt5ct or qt6ct and select custom as your pallete provider.
 4. Select the color scheme you copied from the dropdown menu and hit apply.
+
+### Menubar Text Fix
+
+If you have chosen a dark theme in qt6ct it can happen that in some applications the Menu or Status bar text can not be seen.
+To fix this you can copy the file `qss/menubar.qss` into the folder `~/.config/qt6ct/qss` and enable it using qt6ct.
 
 ## 🙋 FAQ
 
@@ -49,6 +54,7 @@
 ## 💝 Thanks to
 
 - [Syndrizzle](https://github.com/syndrizzle)
+- [Astreaprtcl](https://github.com/astreaprtcl)
 
 &nbsp;
 

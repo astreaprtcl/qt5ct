@@ -1,0 +1,3 @@
+QMenuBar, QStatusBar {
+  color: palette(text);
+}
