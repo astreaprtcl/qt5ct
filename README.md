@@ -43,8 +43,8 @@
 
 ### Menubar Text Fix
 
-If you have chosen a dark theme in qt6ct it can happen that in some applications the Menu or Status bar text can not be seen.
-To fix this you can copy the file `qss/menubar.qss` into the folder `~/.config/qt6ct/qss` and enable it using qt6ct.
+If you have chosen a dark theme it can happen that in some applications the Menu or Status bar text is too similar to the background to be seen.
+To fix this you can copy the file `qss/menubar.qss` into the `~/.config/qt5ct/qss` or `~/.config/qt6ct/qss` folder respectively and enable it with qt5ct or qt6ct.
 
 ## 🙋 FAQ
 
